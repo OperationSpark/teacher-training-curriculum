@@ -21,6 +21,7 @@ Actual link:
 <a href="http://www.google.com">This is a link to Google</a>
 
 #### Step 1
+
 Open Lesson3.html, create an HTML page, and create a text link to Facebook. Save the page and view your link.
 
 **Two types of URLs:**
@@ -45,6 +46,11 @@ When hovered over the cursor becomes a hand
 <img src="http://i.imgur.com/3qMNw9D.png" />
 
 When you've visited a link it will become purple. You can change the way links look and act with something called CSS. We'll get to that soon.
+
+### Images
+The image element in HTML is one of the few with no closing tag because there is nothing to wrap tags around. 
+
+
 
 
 

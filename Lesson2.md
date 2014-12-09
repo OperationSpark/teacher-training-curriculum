@@ -83,7 +83,7 @@ like Illustrator and Photoshop. Web designers deal more so with how a design wil
 the coding side of things with HTML and CSS. Graphic designers are often responsible for creation of assets like the logo, icons, and various marketing material. 
 
 ## Post-class questions
-### What is the relationship between user experience and user interface?
-### Tell us about a product or company with great a UX and one with bad a UX.
-### How does the color red make people feel?
-### Explain the difference between web design and graphic design.
+#### What is the relationship between user experience and user interface?
+#### Tell us about a product or company with great a UX and one with bad a UX.
+#### How does the color red make people feel?
+#### Explain the difference between web design and graphic design.
