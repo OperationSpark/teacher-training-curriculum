@@ -1,4 +1,4 @@
-HTML and CSS
+HTML 
 ========
 
 ### An intro to HTML 
@@ -94,6 +94,10 @@ One awesome thing about the web is that you can view the source code of any HTML
 The HTML on those sites will most likely look quite complicated compared to what you just created. You can still see the basic structure though. Peruse through the code to find the same tags you just used.
 If you can't find them just press cmd + F on Mac or ctrl + F on Windows and search for html, head, title, and body. 
 
+## Post-class questions
+### What does HTML do?
+### Why is formatting your code important?
+### What is the <h1> tag used for?
 
 
 ## References
