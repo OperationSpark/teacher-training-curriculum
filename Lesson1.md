@@ -39,10 +39,12 @@ HTML tags almost always come in pairs where they envelope content. The beginning
 
 ## Write your first HTML page
 
-Open a workspace in Cloud 9. Create a new file and name it index.html. Open the file.
+### Step 1
 
-First tell the browser what the page is going to be with the DOCTYPE tag: `<!DOCTYPE HTML>`
-Next you need to start the HTML page itself with the `<HTML>` opening and closing tags.
+* Open a workspace in Cloud 9. 
+* Create a new file by clicking File > New File in the top left and name it index.html. Open the file by double clicking on it.
+* First tell the browser what the page is going to be with the DOCTYPE tag: `<!DOCTYPE HTML>`
+* Next you need to start the HTML page itself with the `<HTML>` opening and closing tags.
 
 Whenever we have tags inside of other tags we need to indent them for formatting purposes. The browser actually doesn't care about indentations but it's much easier for humans to 
 read and understand if code is formatted properly. Part of that is nesting tags accordingly. So now let's add some more tags. 
@@ -90,14 +92,39 @@ So, nothing crazy yet but you made an HTML page! You can see the title you came 
 And a big, bold heading thanks to the h1 element with some text underneath inside the p element. Now let's view the code that is generated in the browser.
 Right-click on the page and click 'View Source.' You can see the code you wrote right in the browser. 
 
-One awesome thing about the web is that you can view the source code of any HTML page. Take a minute to visit three of your favorite websites and view their code just like you did for your own page.
+One awesome thing about the web is that you can view the source code of any HTML page. 
+
+### Step 2
+Take a minute to visit three of your favorite websites and view their code just like you did for your own page.
 The HTML on those sites will most likely look quite complicated compared to what you just created. You can still see the basic structure though. Peruse through the code to find the same tags you just used.
 If you can't find them just press cmd + F on Mac or ctrl + F on Windows and search for html, head, title, and body. 
+
+## Divs
+
+A `<div>` is something that lets you create your own block elements in HTML. Divs are used when other HTML elements aren't suitable for a certain purpose. 
+For instance when you're creating header text you would use `<h1>`, `<h2>`, etc. or when you're making a paragraph you use the `<p>` element. There will be 
+times when you want to create something on a page and will end up using a div to make it. Most of the time you'll be using CSS to style that div in some way. We'll 
+work on that in a future lesson.
+
+### Step 3
+* Create a `<div>` element with opening and closing div tags. 
+* Put some text inside the div. 
+* Now put another div inside of the first div. Make sure it's indented properly!
+* Save your page and view it.
+
+```HTML
+<div>
+    Here's some text.
+        <div></div>
+</div>
+```
+
+The second div is present but you don't see it because you didn't put anything inside of it. You'll become familiar with nesting divs in later lessons.
 
 ## Post-class questions
 ### What does HTML do?
 ### Why is formatting your code important?
-### What is the <h1> tag used for?
+### What is the `<h1>` tag used for?
 
 
 ## References
