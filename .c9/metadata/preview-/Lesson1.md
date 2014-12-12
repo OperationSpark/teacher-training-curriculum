@@ -1,1 +1,0 @@
-{"filter":false,"title":"[P] /Lesson1.md","undoManager":{"mark":0,"position":-1,"stack":[]},"preview":{"path":"/Lesson1.md","previewer":"preview.markdown"},"timestamp":1418332698111,"hash":"da39a3ee5e6b4b0d3255bfef95601890afd80709"}

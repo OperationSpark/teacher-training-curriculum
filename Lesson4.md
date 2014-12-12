@@ -2,7 +2,7 @@ Making everything look pretty with CSS
 ========
 Lesson 4 will go over the basics of CSS.
 
-### Cascading Style Sheets, or CSS, is what give websites style. Without CSS, the internet would be a very bland place. 
+#### Cascading Style Sheets, or CSS, is what give websites style. Without CSS, the internet would be a very bland place. 
 
 Facebook with CSS:
 
@@ -78,9 +78,11 @@ It should look something like this:
 Save your changes and view them. Take note that the background-color property is used for backgrounds (not surprisingly) but the
 color property is only used to change the color of text. Your heading is still black because you only set the color on the p tag. 
 
-### Padding and margins
-Now we're going to start playing with padding and margins. **Padding** is the amount space around content that is inside of an element. A **margin** is the amount of space outside of
-an element. You can set padding and margins on all four sides of an element.
+We're using **pixels** to set the font size in the above code. Pixels are one of several units of measurement you can use to set length. 
+You can use it to set many values such as font-size, padding, and margin. 
+
+### Padding 
+Now we're going to start playing with padding. **Padding** is the amount space around content that is inside of an element.  You can set padding on all four sides of an element.
 
 Here's an example of padding around a div:
 
@@ -88,8 +90,8 @@ Here's an example of padding around a div:
 div {
         padding-top: 20px;
         padding-right: 10px;
-        padding-bottom: 10px;
-        padding-left: 20px;
+        padding-bottom: 5px;
+        padding-left: 0;
     }
 ```
 Remember that the div is the selector and there are four properties which apply to padding.
@@ -98,7 +100,47 @@ Remember that the div is the selector and there are four properties which apply 
 
 * Create a div element in Lesson4.html underneath the paragraph element
 * Write some text inside of it
-* 
+* Go back up to <style> and type out the above code inside
+* Add a 5th property below padding-left to give the div a background color like you did for the body. Make sure it's a different color than what you
+  set for body.
+* Save your work and view it
+
+Notice the amount of space between the words you typed into the div and the edge of the box. 
+There's more space on top because you set the number of pixels to 20. And on the left there is no space at all
+because you set the padding to 0. 
+
+### Step 3
+
+* Set some padding to both the h1 and p elements you created. Specifically play around with padding on the left side.
+* Save your changes and view them.
+
+### Margins
+A **margin** is the amount of space outside of an element. You can set it on all four side like padding.
+
+### Step 4
+
+* On the div selector in your CSS add some properties above the padding to set margins.
+* Set the margin-top to 50 pixels and the margin-left to 20 pixels. Don't worry about right or bottom now.
+* Save your work and view it. 
+
+The code should look like this: 
+
+```CSS
+div {
+        margin-top: 50px;
+        margin-left: 20px;
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-bottom: 5px;
+        padding-left: 0;
+        background-color: green;
+    }
+```
+
+What do you see different about that div? It has been pushed further down the page and also to the left!
+
+## Classes and IDs
+
 
 
 

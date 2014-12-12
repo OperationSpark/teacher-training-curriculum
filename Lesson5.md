@@ -17,9 +17,38 @@ In the top right click the green button titled "CREATE NEW WORKSPACE" and then "
 At this point, you'll encounter two choices: Create a new workspace and Clone from URL. Here's what they mean:
 
 * **Create** a New Workspace allows you to create any of the previously mentioned types of workspaces (hosted, FTP, or SSH).
-* **Clone** from URL allows you to instantly create a workspace from a repository, like GitHub or Bitbucket, using its URL. We'll explain more about this in the section below.
+* **Clone** from URL allows you to instantly create a workspace from a repository, like GitHub or Bitbucket, using its URL. 
 
-I would like to see screenshots for the processes of: 0. explain we're working across the network, that sometimes this is slow, sometimes packet loss occurs and it may be best in problem solving to first reload the browser.  1. creating/cloning a workspace (explain that we'll mostly be using either a node.js or custom env, and what that means).  2. The major parts of the IDE of interest to us (a. filesystem, b. texteditor c. bash terminal in the console view).  3. Best practices: a. probably best to run your app from the command-line, but follow the instructions in whatever tutorial you're doing - some tutorials may get you to use the preview feature, some might get you to use the play-button, etc. b. explain that if you're using the play button, you MUST have the main file of your app selected first, otherwise the IDE will try to execute whatever file you have currently selected, and nothing good will happen. c. Manage all open in-C9-tabs, both from live-previewing and in the terminal - in other words, don't allow multiple preview-tabs to remain open (this happens by clicking preview without closing a previously running live-preview tab OR by continuing to click the URL provided in the C9 popup when running a server of some sort AND it happens if you click Play multiple times from the menu bar instead of in the Console tab that opens after click play THE FIRST TIME).  Etc.  I think we should provide screenshots were possible with red rectangles for "LOOK HERE"
+### Basics of a Cloud 9 Workspace
+Cloud 9 is a browser-based product so there are times when it may be a bit slow because it requires an internet connection to do everything. If for some reason
+something isn't loading just try refreshing the browser window. 
+
+There are three main components of the the Cloud 9 IDE which you should be looking at right now:
+
+1. Text editor
+<img src="img/c9-text-editor.png">
+
+The text editor is where you'll spend most of your time. 
+
+2. Terminal
+<img src="img/terminal-c9.png">
+
+3. File system
+<img src="img/filesystem-c9.png">
+
+
+
+
+
+
+
+
+3. Best practices: a. probably best to run your app from the command-line, but follow the instructions in whatever tutorial you're doing - some tutorials may get you to use 
+the preview feature, some might get you to use the play-button, etc. b. explain that if you're using the play button, you MUST have the main file of your app selected first, 
+otherwise the IDE will try to execute whatever file you have currently selected, and nothing good will happen. c. Manage all open in-C9-tabs, both from live-previewing and in 
+the terminal - in other words, don't allow multiple preview-tabs to remain open (this happens by clicking preview without closing a previously running live-preview tab OR by 
+continuing to click the URL provided in the C9 popup when running a server of some sort AND it happens if you click Play multiple times from the menu bar instead of in the 
+Console tab that opens after click play THE FIRST TIME).  Etc.  I think we should provide screenshots were possible with red rectangles for "LOOK HERE"
 
 ### Creating a workspace
 
