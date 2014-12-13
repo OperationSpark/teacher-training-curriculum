@@ -100,9 +100,8 @@ Remember that the div is the selector and there are four properties which apply 
 
 * Create a div element in Lesson4.html underneath the paragraph element
 * Write some text inside of it
-* Go back up to <style> and type out the above code inside
-* Add a 5th property below padding-left to give the div a background color like you did for the body. Make sure it's a different color than what you
-  set for body.
+* Go back up to `<style>` and type out the above code inside
+* Add a 5th property below padding-left to give the div a background color like you did for the body. Make sure it's a different color than the body.
 * Save your work and view it
 
 Notice the amount of space between the words you typed into the div and the edge of the box. 

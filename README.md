@@ -1,4 +1,3 @@
 Curriculum
 =====
 
-Yay.
