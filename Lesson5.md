@@ -19,37 +19,6 @@ At this point, you'll encounter two choices: Create a new workspace and Clone fr
 * **Create** a New Workspace allows you to create any of the previously mentioned types of workspaces (hosted, FTP, or SSH).
 * **Clone** from URL allows you to instantly create a workspace from a repository, like GitHub or Bitbucket, using its URL. 
 
-### Basics of a Cloud 9 Workspace
-Cloud 9 is a browser-based product so there are times when it may be a bit slow because it requires an internet connection to do everything. If for some reason
-something isn't loading just try refreshing the browser window. 
-
-There are three main components of the the Cloud 9 IDE which you should be looking at right now:
-
-1. Text editor
-<img src="img/c9-text-editor.png">
-
-The text editor is where you'll spend most of your time. 
-
-2. Terminal
-<img src="img/terminal-c9.png">
-
-3. File system
-<img src="img/filesystem-c9.png">
-
-
-
-
-
-
-
-
-3. Best practices: a. probably best to run your app from the command-line, but follow the instructions in whatever tutorial you're doing - some tutorials may get you to use 
-the preview feature, some might get you to use the play-button, etc. b. explain that if you're using the play button, you MUST have the main file of your app selected first, 
-otherwise the IDE will try to execute whatever file you have currently selected, and nothing good will happen. c. Manage all open in-C9-tabs, both from live-previewing and in 
-the terminal - in other words, don't allow multiple preview-tabs to remain open (this happens by clicking preview without closing a previously running live-preview tab OR by 
-continuing to click the URL provided in the C9 popup when running a server of some sort AND it happens if you click Play multiple times from the menu bar instead of in the 
-Console tab that opens after click play THE FIRST TIME).  Etc.  I think we should provide screenshots were possible with red rectangles for "LOOK HERE"
-
 ### Creating a workspace
 
 After clicking on Create a new workspace, you're taken to the screen below:
@@ -63,3 +32,37 @@ Choose HTML5 as the type of workspace and press Create. That's it! You can now s
 <img src="img/createdWorkspace.png">
 
 Now, just click **Start Editing** to get started!
+
+### Basics of a Cloud 9 Workspace
+Cloud 9 is a browser-based product so there are times when it may be a bit slow because it requires an internet connection to do everything. If for some reason
+something isn't loading just try refreshing the browser window. 
+
+There are three main components of the the Cloud 9 IDE which you should be looking at right now:
+
+1. Text editor
+<img src="img/c9-text-editor.png">
+
+The text editor is where you'll spend most of your time. There are many features of the text editor that help speed up code creation. 
+
+<img src="img/language-c9.png">
+You can choose which language you're using in the bottom right of the text editor so that it can format your code properly. To do that, click the word
+**Text** and select the language you're working in. You can also set the default tab size by clicking **Spaces**. Finally, you can increase or decrease the font 
+size by clicking on the **Gear icon**. 
+
+You can open and edit multiple files simultaneously in the C9 text editor. They will appear as tabs at the top similar to what you see with web browsers. 
+
+You'll find more settings by clicking on the icon in the top left of the text editor. 
+
+<img src="img/text-editor-settings-c9.png"> 
+
+The most valuable settings in here are changing the way you can view multiple files. Click the icons at the bottom of that menu to see how you can 
+view multiple files at one time. 
+
+2. Terminal
+<img src="img/terminal-c9.png">
+
+
+3. Filesystem
+<img src="img/filesystem-c9.png">
+
+

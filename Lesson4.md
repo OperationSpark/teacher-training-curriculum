@@ -2,7 +2,7 @@ Making everything look pretty with CSS
 ========
 Lesson 4 will go over the basics of CSS.
 
-#### Cascading Style Sheets, or CSS, is what give websites style. Without CSS, the internet would be a very bland place. 
+##### Cascading Style Sheets, or CSS, is what give websites style. Without CSS, the internet would be a very bland place. 
 
 Facebook with CSS:
 
@@ -137,9 +137,40 @@ div {
     }
 ```
 
-What do you see different about that div? It has been pushed further down the page and also to the left!
+What do you see different about that div? It has been pushed further down the page and also to the left. To be more specific it is 50 pixels further down 
+the page due to the properties margin-top and margin-left.
 
 ## Classes and IDs
+
+When you want to get more specific than all of the HTML elements across a site you use classes and IDs to do that. You will often want to apply styling to
+only certain HTML elements rather than all of them. In the above code examples we're selecting the `<h1>` and `<p>` elements. The CSS styling you applied
+will change the look of all of the `<h1>` and `<p>` elements across the site. 
+
+
+Classes in CSS are created with a period and the class name: 
+
+```CSS
+.class-name {
+    font-size: 20px;
+}
+```
+
+### Step 5
+
+```HTML
+<h1>Plain header</h1>
+<h1 class="special">Custom header</h1>
+<h1>Plain header</h1>
+```
+We're going to apply a class to an `<h1>` element. 
+
+* Copy the above code into Lesson4.html. 
+* Create a class called **special** in the CSS. 
+* Give the class some properties like font size or color. 
+* Save your changes and view them. 
+
+The Customer header text is different than the rest because you styled it that way. 
+
 
 
 
