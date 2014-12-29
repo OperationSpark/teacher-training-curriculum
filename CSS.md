@@ -1,9 +1,18 @@
 Making everything look pretty with CSS
 ========
 
+The reference material can be found [here](https://github.com/OperationSpark/javascript-wiki/wiki/CSS)
+
 #### TODO 1
 
-* Open Lesson4.html 
+```css
+body {
+        background-color: blue;
+}
+```
+
+* In Cloud9 create a file and name it CSS.html 
+* Copy the contents of [this page](https://raw.githubusercontent.com/OperationSpark/teacher-training-curriculum/master/CSS.html) into that file and save it.
 * Write the code sample you see above in between the `<style>` tags. 
 * Choose a different color. 
 * Save that and check out your work. You changed the background color! Hoorah! 
@@ -42,7 +51,7 @@ You can use it to set many values such as font-size, padding, and margin.
 
 ### TODO 2
 
-* Create a div element in Lesson4.html underneath the paragraph element
+* Create a div element in CSS.html underneath the paragraph element
 * Write some text inside of it
 * Go back up to `<style>` and type out the above code inside
 * Add a 5th property below padding-left to give the div a background color like you did for the body. Make sure it's a different color than the body.
@@ -89,9 +98,9 @@ the page due to the properties margin-top and margin-left.
 ```
 We're going to apply a class to an `<h1>` element. 
 
-* Copy the above code into Lesson4.html. 
+* Copy the above code into CSS.html. 
 * Create a class called **special** in the CSS. 
 * Give the class some properties like font size or color. 
 * Save your changes and view them. 
 
-The Customer header text is different than the rest because you styled it that way. 
+The Custom header text is different than the rest because you styled it that way. 

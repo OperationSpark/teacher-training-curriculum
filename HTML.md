@@ -1,6 +1,8 @@
 HTML 
 ========
 
+The reference material can be found [here](https://github.com/OperationSpark/javascript-wiki/wiki/HTML-Intro)
+
 ## Write your first HTML page
 
 ### TODO 1
