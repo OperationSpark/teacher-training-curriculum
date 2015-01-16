@@ -5,15 +5,14 @@ The reference material can be found [here](https://github.com/OperationSpark/jav
 
 #### TODO 1
 
-* Open Lesson3.html
-* Create an HTML page
+* In Cloud9 create an HTML page from scratch like you in the Intro to HTML lesson
 * Create a text link to Facebook
 * Save the page and view your link.
 
 #### TODO 2 
 Create an image with HTML
 
-* In Lesson3.html create an image with HTML. 
+* Create an image with HTML. 
 * Find an image you like on Wikipedia. 
 * Right click on the image and click "Copy Image URL" to get the URL. 
 * Save the file and view your image. 
@@ -28,7 +27,7 @@ Create an image **link** with HTML
 #### TODO 4
 
 * Choose some items that would normally go in a list together.
-* Create two lists in Lesson3.html like the examples below. 
+* Create two lists similar to the examples below. 
 * Save your work and view the lists. Notice how the lists are indented. 
 
 Unordered list:
